@@ -1,0 +1,152 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Get a Quote | Pomona Pool Pros</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+    <!-- NAV -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white border-bottom sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Pomona Pool Pros</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="nav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+                    <li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a></li>
+                    <li class="nav-item"><a class="nav-link" href="quote.html">Get a Quote</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header class="py-5 bg-light border-bottom">
+        <div class="container">
+            <h1 class="mb-2">Request a Free Quote</h1>
+            <p class="text-muted mb-0">We typically respond the same day, Mon–Sat.</p>
+        </div>
+    </header>
+
+    <main class="container my-5">
+        <div class="row g-5">
+            <div class="col-lg-7">
+                <form class="needs-validation" novalidate onsubmit="handleQuoteSubmit(event)">
+                    <div class="row g-3">
+                        <div class="col-md-6">
+                            <label class="form-label">First Name</label>
+                            <input type="text" class="form-control" required>
+                            <div class="invalid-feedback">Please enter your first name.</div>
+                        </div>
+                        <div class="col-md-6">
+                            <label class="form-label">Last Name</label>
+                            <input type="text" class="form-control" required>
+                            <div class="invalid-feedback">Please enter your last name.</div>
+                        </div>
+                        <div class="col-md-6">
+                            <label class="form-label">Email</label>
+                            <input type="email" class="form-control" required>
+                            <div class="invalid-feedback">Please provide a valid email.</div>
+                        </div>
+                        <div class="col-md-6">
+                            <label class="form-label">Phone</label>
+                            <input type="tel" class="form-control" placeholder="(909) 555-1234" pattern="^\\(?\\d{3}\\)?[-\\.\\s]?\\d{3}[-\\.\\s]?\\d{4}$" required>
+                            <div class="invalid-feedback">Please enter a valid phone number.</div>
+                        </div>
+                        <div class="col-12">
+                            <label class="form-label">Address</label>
+                            <input type="text" class="form-control" placeholder="Street address in Pomona" required>
+                            <div class="invalid-feedback">Please enter your service address.</div>
+                        </div>
+                        <div class="col-md-6">
+                            <label class="form-label">Pool Size (approx. gallons)</label>
+                            <input type="number" class="form-control" min="1000" step="500" required>
+                            <div class="invalid-feedback">Add an approximate size.</div>
+                        </div>
+                        <div class="col-md-6">
+                            <label class="form-label">Service Type</label>
+                            <select class="form-select" required>
+                                <option value="">Choose…</option>
+                                <option>Weekly Cleaning</option>
+                                <option>One-Time Cleanup</option>
+                                <option>Green-to-Clean</option>
+                                <option>Filter Clean</option>
+                                <option>Start-Up</option>
+                            </select>
+                            <div class="invalid-feedback">Please select a service.</div>
+                        </div>
+                        <div class="col-md-6">
+                            <label class="form-label">Preferred Day</label>
+                            <input type="date" class="form-control">
+                        </div>
+                        <div class="col-md-6">
+                            <label class="form-label">Frequency</label>
+                            <select class="form-select">
+                                <option>One-Time</option>
+                                <option>Weekly</option>
+                                <option>Bi-Weekly</option>
+                                <option>Monthly</option>
+                            </select>
+                        </div>
+                        <div class="col-12">
+                            <label class="form-label">Notes</label>
+                            <textarea class="form-control" rows="4" placeholder="Gate code, pets, special requests…"></textarea>
+                        </div>
+                    </div>
+                    <div class="d-grid d-sm-flex gap-2 mt-4">
+                        <button class="btn btn-primary btn-lg" type="submit">Submit Request</button>
+                        <a class="btn btn-outline-secondary btn-lg" href="tel:+19095551234">Call (909) 555-1234</a>
+                    </div>
+
+                    <div id="quoteSuccess" class="alert alert-success mt-4 d-none" role="alert">
+                        Thanks! Your request was received. We’ll reach out shortly.
+                    </div>
+                </form>
+            </div>
+
+            <div class="col-lg-5">
+                <div class="p-4 border rounded-3">
+                    <h5>Service Area</h5>
+                    <p class="mb-2">Pomona, plus nearby parts of La Verne, Claremont, and Chino.</p>
+                    <hr>
+                    <h5>Typical Weekly Visit</h5>
+                    <ul class="mb-0">
+                        <li>Skim, brush, vacuum, baskets</li>
+                        <li>Test & balance (pH, FC, TA, CYA)</li>
+                        <li>Quick equipment check</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer mt-5 pt-5 pb-4">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-md-6">
+                    <h5>Pomona Pool Pros</h5>
+                    <p class="mb-1">1232 E Holt Ave, Pomona, CA 91767</p>
+                    <p class="mb-1">Call/Text: <a href="tel:+19095551234">(909) 555-1234</a></p>
+                    <p class="mb-0">Email: <a href="mailto:hello@pomonapoolpros.com">hello@pomonapoolpros.com</a></p>
+                </div>
+                <div class="col-md-6 text-md-end">
+                    <p class="mb-1">Hours: Mon–Sat 8am–6pm</p>
+                    <a href="services.html" class="btn btn-outline-light">See Services</a>
+                </div>
+            </div>
+            <hr class="border-secondary opacity-25">
+            <small>© <span id="year"></span> Pomona Pool Pros.</small>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/script.js"></script>
+    <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>

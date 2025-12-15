@@ -1,0 +1,29 @@
+C:\Users\Ian\source\repos\Project One\Project One\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\Ian\source\repos\Project One\Project One\bin\Debug\net8.0\appsettings.json
+C:\Users\Ian\source\repos\Project One\Project One\bin\Debug\net8.0\Project One.staticwebassets.runtime.json
+C:\Users\Ian\source\repos\Project One\Project One\bin\Debug\net8.0\Project One.staticwebassets.endpoints.json
+C:\Users\Ian\source\repos\Project One\Project One\bin\Debug\net8.0\Project One.exe
+C:\Users\Ian\source\repos\Project One\Project One\bin\Debug\net8.0\Project One.deps.json
+C:\Users\Ian\source\repos\Project One\Project One\bin\Debug\net8.0\Project One.runtimeconfig.json
+C:\Users\Ian\source\repos\Project One\Project One\bin\Debug\net8.0\Project One.dll
+C:\Users\Ian\source\repos\Project One\Project One\bin\Debug\net8.0\Project One.pdb
+C:\Users\Ian\source\repos\Project One\Project One\obj\Debug\net8.0\rpswa.dswa.cache.json
+C:\Users\Ian\source\repos\Project One\Project One\obj\Debug\net8.0\Project One.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ian\source\repos\Project One\Project One\obj\Debug\net8.0\Project One.AssemblyInfoInputs.cache
+C:\Users\Ian\source\repos\Project One\Project One\obj\Debug\net8.0\Project One.AssemblyInfo.cs
+C:\Users\Ian\source\repos\Project One\Project One\obj\Debug\net8.0\Project One.csproj.CoreCompileInputs.cache
+C:\Users\Ian\source\repos\Project One\Project One\obj\Debug\net8.0\Project One.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Ian\source\repos\Project One\Project One\obj\Debug\net8.0\rjimswa.dswa.cache.json
+C:\Users\Ian\source\repos\Project One\Project One\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
+C:\Users\Ian\source\repos\Project One\Project One\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
+C:\Users\Ian\source\repos\Project One\Project One\obj\Debug\net8.0\scopedcss\bundle\Project One.styles.css
+C:\Users\Ian\source\repos\Project One\Project One\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\Ian\source\repos\Project One\Project One\obj\Debug\net8.0\staticwebassets.build.json.cache
+C:\Users\Ian\source\repos\Project One\Project One\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\Ian\source\repos\Project One\Project One\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Users\Ian\source\repos\Project One\Project One\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\Ian\source\repos\Project One\Project One\obj\Debug\net8.0\Project One.dll
+C:\Users\Ian\source\repos\Project One\Project One\obj\Debug\net8.0\refint\Project One.dll
+C:\Users\Ian\source\repos\Project One\Project One\obj\Debug\net8.0\Project One.pdb
+C:\Users\Ian\source\repos\Project One\Project One\obj\Debug\net8.0\Project One.genruntimeconfig.cache
+C:\Users\Ian\source\repos\Project One\Project One\obj\Debug\net8.0\ref\Project One.dll

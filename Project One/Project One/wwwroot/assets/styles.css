@@ -1,0 +1,43 @@
+﻿/* Basic brand tweaks */
+:root {
+    --brand: #0d6efd; /* Bootstrap primary */
+    --brand-dark: #0b5ed7;
+    --brand-light: #e7f1ff;
+}
+
+body {
+    scroll-behavior: smooth;
+}
+
+.navbar-brand {
+    font-weight: 700;
+    letter-spacing: .3px;
+}
+
+.hero {
+    background: linear-gradient(180deg, var(--brand-light), #ffffff);
+}
+
+.footer {
+    background: #0f172a; /* slate-900-ish */
+    color: #cbd5e1;
+}
+
+    .footer a {
+        color: #93c5fd;
+        text-decoration: none;
+    }
+
+        .footer a:hover {
+            text-decoration: underline;
+        }
+
+.badge-city {
+    background: #14532d;
+}
+
+/* Card images keep proportions */
+.card-img-top {
+    object-fit: cover;
+    height: 200px;
+}

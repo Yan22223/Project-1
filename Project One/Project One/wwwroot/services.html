@@ -1,0 +1,111 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Services | Pomona Pool Pros</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+    <!-- NAV -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white border-bottom sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Pomona Pool Pros</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="nav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+                    <li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a></li>
+                    <li class="nav-item"><a class="nav-link" href="quote.html">Get a Quote</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header class="py-5 bg-light border-bottom">
+        <div class="container">
+            <h1 class="mb-2">Services</h1>
+            <p class="text-muted mb-0">Transparent pricing after a quick on-site look. No contracts.</p>
+        </div>
+    </header>
+
+    <!-- 6 CLEAR DIV SECTIONS (each a service "div") -->
+    <div class="container my-5">
+        <div class="row g-4">
+            <div class="col-md-6">
+                <div class="p-4 border rounded-3 h-100">
+                    <h4>Weekly Cleaning</h4>
+                    <p class="mb-2">Skim, brush, vacuum, empty baskets, test and balance chemicals, quick equipment check.</p>
+                    <ul class="mb-0">
+                        <li>Most common in Phillips Ranch & Lincoln Park</li>
+                        <li>Photo report after each visit</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="p-4 border rounded-3 h-100">
+                    <h4>One-Time Cleanup</h4>
+                    <p class="mb-0">Hosting this weekend or just moved in? We’ll deep-clean and balance your water fast.</p>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="p-4 border rounded-3 h-100">
+                    <h4>Green-to-Clean Algae Rescue</h4>
+                    <p class="mb-0">Shock, floc, vacuum to waste, and filter service to bring swampy water back to blue.</p>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="p-4 border rounded-3 h-100">
+                    <h4>Filter & Equipment Care</h4>
+                    <p class="mb-0">DE/Cartridge cleans, backwashing, pump/leaf-trap maintenance, timer checks.</p>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="p-4 border rounded-3 h-100">
+                    <h4>Start-Ups & Drains</h4>
+                    <p class="mb-0">New plaster start-ups and safe draining with city guidelines in mind.</p>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="p-4 border rounded-3 h-100">
+                    <h4>Salt Cell & Heater Checks</h4>
+                    <p class="mb-0">Scale removal, diagnostics, and seasonal readiness.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- FOOTER -->
+    <footer class="footer mt-5 pt-5 pb-4">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-md-6">
+                    <h5>Pomona Pool Pros</h5>
+                    <p class="mb-1">1232 E Holt Ave, Pomona, CA 91767</p>
+                    <p class="mb-1">Call/Text: <a href="tel:+19095551234">(909) 555-1234</a></p>
+                    <p class="mb-0">Email: <a href="mailto:hello@pomonapoolpros.com">hello@pomonapoolpros.com</a></p>
+                </div>
+                <div class="col-md-6 text-md-end">
+                    <p class="mb-1">Hours: Mon–Sat 8am–6pm</p>
+                    <a href="quote.html" class="btn btn-outline-light">Get a Quote</a>
+                </div>
+            </div>
+            <hr class="border-secondary opacity-25">
+            <small>© <span id="year"></span> Pomona Pool Pros.</small>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/script.js"></script>
+    <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>

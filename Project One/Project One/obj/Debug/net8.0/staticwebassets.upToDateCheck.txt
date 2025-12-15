@@ -1,0 +1,6 @@
+wwwroot\assets\script.js
+wwwroot\assets\styles.css
+wwwroot\index.html
+wwwroot\quote.html
+wwwroot\services.html
+wwwroot\gallery.html
